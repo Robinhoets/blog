@@ -22,7 +22,7 @@ class Header extends Component{
   render(){
     return(
       <div>
-        <Navbar as="Navbar" fixed="top" bg="dark" variant="dark">
+        <Navbar className="navbarHeader" fixed="top" bg="dark" variant="dark">
           <Navbar.Brand href="#home">CSLoop</Navbar.Brand>
           <Nav className="mr-auto">
             <Router>

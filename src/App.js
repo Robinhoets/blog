@@ -17,6 +17,7 @@ import './App.css';
 import './App.scss';
 
 import Header from './navigationcomponents/Header.js'
+import Footer from './navigationcomponents/Footer.js'
 
 import Field from './images/LivField.jpeg'
 
@@ -25,6 +26,7 @@ function App() {
     <>
     <Header />
     <Image className="Image" src={Field} alt="Liverpool Formation" fluid/>
+    <Footer />
     </>
   );
 }
