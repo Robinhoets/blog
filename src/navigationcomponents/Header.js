@@ -26,9 +26,9 @@ class Header extends Component{
           <Navbar.Brand href="#home">CSLoop</Navbar.Brand>
           <Nav className="mr-auto">
             <Router>
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#features">Articles</Nav.Link>
-              <Nav.Link href="#pricing">Statistics</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/Articles">Articles</Nav.Link>
+              <Nav.Link href="/Statistics">Statistics</Nav.Link>
             </Router>
           </Nav>
           <Form inline>

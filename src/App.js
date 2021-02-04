@@ -19,15 +19,22 @@ import './App.scss';
 import Header from './navigationcomponents/Header.js'
 import Footer from './navigationcomponents/Footer.js'
 
-import Field from './images/LivField.jpeg'
+import Field from './images/LivField.png'
+import Background from './images/stock.jpg'
+      // <Image className="Image" src={Field} alt="Liverpool Formation" fluid/>
 
+var sectionStyle = {
+  width: "100%",
+  height: "100vh",
+  backgroundImage: `url(${Background})`
+};
 function App() {
   return (
-    <>
-    <Header />
-    <Image className="Image" src={Field} alt="Liverpool Formation" fluid/>
-    <Footer />
-    </>
+    <body>
+      <Header />
+      <div style={sectionStyle} />
+      <Footer />
+    </body>
   );
 }
 
